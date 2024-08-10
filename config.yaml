@@ -1,0 +1,7 @@
+## Load Balancer Port
+lb_port: 3001
+strategy: least-connection
+## Backend servers host
+backends:
+  - "http://localhost:3002"
+  - "http://localhost:3003"
